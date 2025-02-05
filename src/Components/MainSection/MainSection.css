@@ -1,0 +1,284 @@
+.main-section {
+    display: flex;
+    margin-left: 80px;
+  }
+  
+  /* Each Vertical Section */
+  .section {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    border:1px solid #ddd;
+  }
+  
+  /* Top Row */
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Middle Row */
+  .middle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .person-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .main-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .green-main {
+    padding: 8px 12px;
+    background-color: lightgreen;
+    font-size: 8px;
+    color: black;
+  }
+  
+  .orange-main {
+    background-color: lightcoral;
+    color: black;
+    font-size: 8px;
+  }
+  
+  /* Lower Row */
+  .lower-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  /* Section Line */
+  .main-section-line {
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    margin: 15px 0;
+  }
+  
+  /* Tab Headers */
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Table Headers */
+  .table-headers {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  /* Table Row */
+  .table-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Address Section */
+  .address-section {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  
+  /* Edit Button */
+  .edit-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+  }
+  
+  .edit-btn {
+    background-color: #1c2a48;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+
+  /* Section Styles */
+.second-section {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+  }
+  
+  /* First Part - Activity, Actionables, Tasks, Notes & Films */
+  .top-content {
+    margin-bottom: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .box {
+    width: 22%;
+    padding: 15px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  /* Second Part - Activity Logs, Form Fields, and Submit */
+  .activity-logs {
+    margin-bottom: 40px;
+  }
+  
+  .activity-logs h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .logs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .log-box {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .icon {
+    font-size: 18px;
+  }
+  
+  /* Form Fields */
+  .form-fields .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-fields label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .form-fields input,
+  .form-fields textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .form-fields textarea {
+    height: 100px;
+  }
+  
+  /* Submit Button */
+  .submit-btn-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .submit-btn {
+    background-color: #1c2a48;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  /* Activity Log Roadmap */
+  .roadmap {
+    margin: 20px 0;
+  }
+  
+  .roadmap-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .roadmap-line.horizontal {
+    justify-content: space-between;
+  }
+  
+  .circle,
+  .empty-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #1c2a48;
+  }
+  
+  .empty-circle {
+    background-color: transparent;
+    border: 2px solid #1c2a48;
+  }
+  
+  .roadmap-line span {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Overdue Activities Section */
+  .overdue-activities {
+    margin-top: 40px;
+  }
+  
+  .overdue-activities h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .overdue-boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .overdue-box {
+    width: 48%;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,47 @@
+.sidebar {
+    position: fixed;
+    top: 60px; /* Starts after the dashboard */
+    left: 0;
+    height: calc(100vh - 60px); /* Adjusted height to fit below the dashboard */
+    width: 60px; /* Slightly increased width */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px; /* Increased space */
+    border-right: 1px solid #ddd; /* Added border line */
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Increased spacing between icons */
+  }
+  
+  .icon-item {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover Effect */
+  .icon-item:hover {
+    background-color: #1c2a48; /* Matches dashboard color */
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Active Icon State */
+  .icon-item.active {
+    background-color: #1c2a48; /* Matches dashboard color */
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+  }
+  
